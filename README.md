@@ -26,7 +26,7 @@ docker build -t akile-checkin .
 docker run --rm -v $(pwd)/config.ini:/app/config.ini akile-checkin
 ```
 
-### 本地运行
+### 直接Python运行
 
 ```bash
 # 1. 克隆项目
