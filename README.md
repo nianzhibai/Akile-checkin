@@ -66,8 +66,9 @@ push_key =                          # Server酱推送Key（可选）
 
 ```bash
 # 每天上午 9:00 自动签到
-0 9 * * * cd /path/to/Akile-checkin && python Akile-Checkin.py > /var/log/akile-checkin.log 2>&1
+0 9 * * * docker run --rm -v /root/Akile-checkin/config.ini:/app/config.ini akile-checkin > /root/Akile-checkin/checkin.log 2>&1
 ```
+**⚠️注意**：将 `/root/Akile-checkin` 替换为你的实际项目路径。
 
 ## 📝 运行日志
 
