@@ -14,6 +14,7 @@ class Notice:
         else:
             url = f"https://sctapi.ftqq.com/{push_key}.send"
         try:
-            requests.post(url, data=data, timeout=15)
+            requests.post(url, data=data, timeout=30)
         except Exception as e:
+
             print(f"Server酱通知失败: {e}")
