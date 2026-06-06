@@ -1,4 +1,4 @@
-**⚠️⚠️⚠️当前项目已失效并不再维护更新，推荐使用 https://github.com/luoxiaoxin123/Akile-checkin 这个项目⚠️⚠️⚠️**
+**⚠️当前项目已失效并不再维护更新，推荐使用 https://github.com/luoxiaoxin123/Akile-checkin 这个项目⚠️**
 
 **Akile.io 自动签到脚本**
 
